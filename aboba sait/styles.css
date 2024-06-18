@@ -1,0 +1,74 @@
+/* Как работать с CSS */
+
+h1 {
+	color: green;
+	font-size: 50px;
+	text-align: center;
+	font-family: "Times New Roman";
+}
+
+h2 {
+	color: blue;
+	font-style: italic;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: "Arial";
+}
+
+h3 {	
+	color: red;
+	font-family: " Georgia";
+}
+
+/* Любые цвета в CSS */
+i {
+	color: rgb(255, 236, 114);
+	font-family: "Verdana";
+}
+
+b {
+	color: #c8ff0052;
+	font-family: "Trebuchet MS,";
+}
+
+/* Ширина и высота элементов в CS */
+p {
+	font-size: 30px;
+	font-family: "Impact";
+	line-height: 25px;
+	text-align: justify;
+	text-indent: 50px;
+	width: 400px;
+	text-decoration: underline; 
+	text-decoration: overline;
+	text-decoration: line-through;
+	/* text-decoration: overline;  можно убрать одну из них, чтобы было лучше */
+	color: red
+	
+}
+
+table {
+	width: 500px;
+	height: 300px;
+	font-family: "Arial Black";
+}
+
+td {
+	font-weight: bold;
+	text-align: center;
+	font-family: "Comic Sans MS";
+}
+
+th {
+	font-weight: normal;
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+
+

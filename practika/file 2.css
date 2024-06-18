@@ -1,0 +1,39 @@
+p {
+	font-family: "Times New Roman";
+	font-size: 13px;
+	line-height: 20px;
+}
+
+p {
+	width: 300px;
+	font-family: Arial;
+	color: red;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+p {
+	font-family: Arial;
+	font-size: 40px;
+	font-weight: bold;
+	text-indent: 50px;
+	font-style: italic;
+	line-height: 60px;
+}
+
+/* исправленно */
+p {
+    font: 13px/20px "Times New Roman"; 
+  }
+  
+
+p { 
+    font: bold 40px/1 Arial; 
+    color: red;
+    width: 300px; 
+  } 
+
+p {
+    font: italic bold 40px/60px Arial;
+    text-indent: 50px;
+}
